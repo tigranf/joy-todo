@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "name": "Vacuum apartment",
+      "priority": "Medium Priority"
+    },
+    {
+      "id": "2",
+      "name": "Clean dishes",
+      "priority": "Medium Priority"
+    },
+    {
+      "id": "3",
+      "name": "Feed cat",
+      "priority": "Medium Priority"
+    },
+    {
+      "id": "4",
+      "name": "Dust TV area",
+      "priority": "Low Priority"
+    },
+    {
+      "id": "5",
+      "name": "Sweep balcony",
+      "priority": "High Priority"
+    },
+    {
+      "id": "6",
+      "name": "Buy groceries",
+      "priority": "High Priority"
+    },
+    {
+      "id": "8",
+      "name": "wipe bathroom mirror",
+      "priority": "High Priority"
+    }
+  ]
+}

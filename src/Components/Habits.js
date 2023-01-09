@@ -57,7 +57,6 @@ const Habits = () => {
                         size="lg"
                         variant="soft"
                         name="habitName"
-                        label="Add Habit"
                         placeholder="Enter a new habit to track"
                         type="text"
                         autoComplete="off"
