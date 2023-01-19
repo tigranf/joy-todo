@@ -39,7 +39,7 @@ const Habits = () => {
                     borderRadius: 16,
                 }}
             >
-                <Typography level="h3" sx={{ textAlign: 'center' }}>Habit Tracker</Typography>
+                <Typography level="h2" color="warning">Habit Tracker</Typography>
                 <List aria-label="habit-list" size="lg">
                     {trackedHabits.map((habit) => (
                         <Habit

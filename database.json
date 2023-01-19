@@ -1,39 +1,85 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "username": "tester",
+      "email": "test@test.com",
+      "password": "$2b$10$E.2eVPLrgFYuBWarAWx8y.aQIhZNKmXlEJC04GHoI/Lzcd7Ni/nDa",
+      "createdAt": "2023-01-19T00:57:11.155Z",
+      "updatedAt": "2023-01-19T00:57:11.155Z"
+    },
+    {
+      "id": 2,
+      "username": "tester2",
+      "email": "tester@tester.com",
+      "password": "$2b$10$owm38gtsnyg9em.tDTLLTuWFffLmnUOud.pGuEjKEiL46iiq1WDIu",
+      "createdAt": "2023-01-19T01:09:51.123Z",
+      "updatedAt": "2023-01-19T01:09:51.123Z"
+    }
+  ],
   "todos": [
     {
       "id": "1",
+      "userId": "1",
       "name": "Vacuum apartment",
-      "priority": "Medium Priority"
+      "priority": "Medium Priority",
+      "status": "active"
     },
     {
       "id": "2",
+      "userId": "1",
       "name": "Clean dishes",
-      "priority": "Medium Priority"
+      "priority": "Medium Priority",
+      "status": "active"
     },
     {
       "id": "3",
+      "userId": "1",
       "name": "Feed cat",
-      "priority": "Medium Priority"
+      "priority": "Medium Priority",
+      "status": "active"
     },
     {
       "id": "4",
+      "userId": "1",
       "name": "Dust TV area",
-      "priority": "Low Priority"
+      "priority": "Low Priority",
+      "status": "active"
     },
     {
       "id": "5",
+      "userId": "1",
       "name": "Sweep balcony",
-      "priority": "High Priority"
+      "priority": "High Priority",
+      "status": "archived"
     },
     {
       "id": "6",
+      "userId": "1",
       "name": "Buy groceries",
-      "priority": "High Priority"
+      "priority": "High Priority",
+      "status": "archived"
+    },
+    {
+      "id": "7",
+      "userId": "1",
+      "name": "Enjoy the weather",
+      "priority": "High Priority",
+      "status": "archived"
     },
     {
       "id": "8",
-      "name": "wipe bathroom mirror",
-      "priority": "High Priority"
+      "userId": "1",
+      "name": "Play Disc Golf",
+      "priority": "Medium Priority",
+      "status": "archived"
+    },
+    {
+      "id": "9",
+      "userId": "1",
+      "name": "Cook Dinner",
+      "priority": "Medium Priority",
+      "status": "archived"
     }
   ]
 }

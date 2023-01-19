@@ -1,6 +1,7 @@
 import Sheet from "@mui/joy/Sheet";
 import Typography from "@mui/joy/Typography";
 import ModeToggle from "./ModeToggle";
+import PlaylistAddTwoToneIcon from '@mui/icons-material/PlaylistAddTwoTone';
 
 const Heading = () => {
     return (
@@ -20,7 +21,7 @@ const Heading = () => {
                 }}
             >
                 <Typography level="h1" component="h2">
-                    ReacToDo
+                    <PlaylistAddTwoToneIcon/>ReacToDo
                 </Typography>
                 <ModeToggle />
             </Sheet>
