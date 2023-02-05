@@ -56,7 +56,6 @@ const SignUpArea = () => {
         onSubmit={(event) => {
           event.preventDefault();
           console.dir(event.target);
-          event.preventDefault();
           handleAuthRegister(
             event.target[0].value,
             event.target[1].value,
